@@ -25,9 +25,9 @@
       </div>
       <div class="right">
         <div class="searchinput">
-          <input type="text" title="search" placeholder="Search City">
+          <input type="text" title="search" id="searchInput" placeholder="Search City">
         </div>
-        <p class="srchicon"><i class="fa-solid fa-magnifying-glass"></i></p>
+        <p class="srchicon" id="seachBtn"><i class="fa-solid fa-magnifying-glass"></i></p>
       </div>
     </div>
     <div class="second">
@@ -36,20 +36,20 @@
           <div class="hedrs">
             <i class="fa-solid fa-location-dot"></i>
             <div class="hdrdetails">
-              <h1>Peshawar</h1>
-              <p>Pakistan</p>
+              <h1 id="city">Peshawar</h1>
+              <p id="country">Pakistan</p>
             </div>
           </div>
           <div class="bottoms">
             <div class="degre">
-              <h2>18</h2>
+              <h2 id="temp">18</h2>
               <p>&deg;<sub>C</sub></p>
             </div>
-            <p class="feels">Feels like 16&deg;C</p>
-            <p class="cloudy">Partly Cloudy</p>
+            <p class="feels" id="feels">Feels like 16&deg;C</p>
+            <p class="cloudy" id="condition">Partly Cloudy</p>
           </div>
         </div>
-        <div class="cldicon"><i class="fa-regular fa-cloud"></i></div>
+        <div class="cldicon" id="conditionIcon"><i class="fa-regular fa-cloud"></i></div>
       </div>
       <div class="righthero">
         <h3>Weather Details</h3>
@@ -58,28 +58,28 @@
             <p class="icon"><i class="fa-solid fa-wind"></i></p>
             <p class="txtss">Wind Speed</p>
           </div>
-          <p class="param">15 km/h</p>
+          <p class="param" id="wind">15 km/h</p>
         </div>
         <div class="dedetails">
           <div class="indetails">
             <p class="icon"><i class="fa-solid fa-droplet"></i></p>
             <p class="txtss">Humidity</p>
           </div>
-          <p class="param">65%</p>
+          <p class="param" id="humidity">65%</p>
         </div>
         <div class="dedetails">
           <div class="indetails">
             <p class="icon"><i class="fa-regular fa-eye"></i></p>
             <p class="txtss">Visibility</p>
           </div>
-          <p class="param">10 km</p>
+          <p class="param" id="visibility">10 km</p>
         </div>
         <div class="dedetails">
           <div class="indetails">
             <p class="icon"><i class="fa-solid fa-gauge-simple-high"></i></p>
             <p class="txtss">Pressure</p>
           </div>
-          <p class="param">1013 mb</p>
+          <p class="param" id="pressure">1013 mb</p>
         </div>
         <div class="dedetails">
           <div class="indetails">
@@ -87,7 +87,7 @@
             <p class="txtss">UV Index
             </p>
           </div>
-          <p class="param">6</p>
+          <p class="param" id="uvIndexes">6</p>
         </div>
       </div>
     </div>
